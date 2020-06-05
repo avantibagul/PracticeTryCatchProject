@@ -1,0 +1,51 @@
+$nav-text-color : rgba(247, 89, 115, 0.836);
+$logo-size: 35px;
+$logo-margin:25px;
+$font-family: Georgia, 'Times New Roman', Times, serif;
+$nav-color: black;
+$display: flex;
+$link-color: rgba(247, 89, 115, 0.836);
+$link-size: 20px;
+$link-hover-color: rgb(177, 19, 19);
+
+
+
+nav{
+    background-color: $nav-color;
+    justify-content: space-between;
+    align-items: end;
+    display: $display;
+    
+    
+
+.logo{
+    font: $font-family;
+    color: $nav-text-color;
+    font-size: $logo-size;
+    margin: $logo-margin;
+
+    
+}
+
+
+ul{
+    display: $display;
+    list-style-type: none;
+    align-items: right;
+}
+li{
+    padding: 15px;;
+}
+a{
+    font-family: $font-family;
+    color: $link-color;
+    text-decoration:none;
+    font-size: $link-size;
+    
+
+    &:hover{
+        color:$link-hover-color;
+    }
+
+}
+}

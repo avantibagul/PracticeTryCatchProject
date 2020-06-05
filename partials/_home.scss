@@ -1,0 +1,28 @@
+$title-color: rgb(121, 63, 106);
+$img-title-color: rgb(94, 5, 70);
+$img-border: 1px solid black;
+$font-family: Georgia, 'Times New Roman', Times, serif;
+$homeTitle-color: rgb(192, 123, 135);
+
+
+.Title{
+    color: $title-color;
+    text-align: center;
+    font-family: $font-family;
+}
+.homepara{
+    color: $title-color;
+    text-align: center;
+    font-family: $font-family;
+    
+}
+.home_img{
+    border: 1px solid black;
+}
+.imgTitle{
+    color: $img-title-color;
+    text-align: center;
+    font-family: $font-family;
+
+ }
+
